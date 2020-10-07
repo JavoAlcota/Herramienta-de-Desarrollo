@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <center>
+            <h1 style="color:firebrick"> BIENVENIDO A MI PRIMER FORMULARIO :D</h1>
+            <form action="file:///C:/AppServ/www/Formulario/confirmacion.html" >
+                <p>Por favor llene los diguientes datos: </p>
+                Nombre: <input name="nombre" type="text" placeholder="Primer nombre" required/>
+                <br><br>  //espacios
+                Apellidos: <input name="apellido" type="text" placeholder="Apellidos paterno y materno" required/>
+                <br><br>
+                Edad: <input name="edad" type="number" required/>
+                <br><br>
+                Fecha de nacimiento: <input name="nacimiento" type="date" required/>
+                <br><br>
+                <p>Sexo:
+                    <input type="radio" name="sexo" value="h" required> Hombre
+                    <input type="radio" name="sexo" value="m" required> Mujer
+                </p>
+                <p>Acepto mandar este formulario para su estudio
+                    <input type="checkbox" name ="check" required>
+                </p>
+                <input type="reset" value="Borrar datos" style="color: red;">
+                <input type="submit" value="Enviar formulario">
+            </form>
+        </center>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
