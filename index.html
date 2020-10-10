@@ -14,13 +14,34 @@
                 <br><br>
                 Edad: <input name="edad" type="number" required/>
                 <br><br>
-                Fecha de nacimiento: <input name="nacimiento" type="date" required/>
+                <div>
+                    <select name="region">
+                        <option>I. Tarapaca</option>
+                        <option>II. Antofagasta</option>
+                        <option>III. Atacama</option>
+                        <option>IV. Coquimbo</option>
+                        <option>V. Valparaiso</option>
+                        <option>VI. Libertador Bernardo O'higgins</option>
+                        <option>VII. Maule</option>
+                        <option>VIII. Biobio</option>
+                        <option>IX. Araucania</option>
+                        <option>X. Los lagos</option>
+                        <option>XI. Aysen</option>
+                        <option>XII. Magallanes</option>
+                        <option>Metropolitana</option>
+                        <option>XIV. Los Rios</option>
+                        <option>XV. Arica y Parinacota</option>
+                        <option>XVI. Ñuble</option>
+                        required
+                    </select>
+                </div>
                 <br><br>
+                Fecha de nacimiento: <input name="nacimiento" type="date" required/>
                 <p>Sexo:
                     <input type="radio" name="sexo" value="h" required> Hombre
                     <input type="radio" name="sexo" value="m" required> Mujer
                 </p>
-                <p>Acepto mandar este formulario para su estudio
+                <p>Acepto enviar este formulario para su estudio
                     <input type="checkbox" name ="check" required>
                 </p>
                 <input type="reset" value="Borrar datos" style="color: red;">
