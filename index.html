@@ -8,13 +8,14 @@
             <h1 style="color:firebrick"> BIENVENIDO A MI PRIMER FORMULARIO :D</h1>
             <form action="file:///C:/AppServ/www/Formulario/confirmacion.html" >
                 <p>Por favor llene los diguientes datos: </p>
-                Nombre: <input name="nombre" type="text" placeholder="Primer nombre" required/>
+                <p>(*): Campo obligatorio</p>
+                Nombre (*): <input name="nombre" type="text" placeholder="Primer nombre" required/>
                 <br><br>  
-                Apellidos: <input name="apellido" type="text" placeholder="Apellidos paterno y materno" required/>
+                Apellidos (*): <input name="apellido" type="text" placeholder="Apellidos paterno y materno" required/>
                 <br><br>
-                Edad: <input name="edad" type="number" required/>
+                Edad (*): <input name="edad" type="number" required/>
                 <br><br>
-                <label>Region donde vive: </label>
+                <label>Region donde vive (*): </label>
                 <select name="region">
                     <option>I. Tarapaca</option>
                     <option>II. Antofagasta</option>
@@ -34,11 +35,12 @@
                     <option>XVI. Ñuble</option>
                 </select>
                 <br><br>
-                Fecha de nacimiento: <input name="nacimiento" type="date" required/>
-                <p>Sexo:
+                Fecha de nacimiento (*): <input name="nacimiento" type="date" required/>
+                <p>Sexo (*):
                     <input type="radio" name="sexo" value="h" required> Hombre
                     <input type="radio" name="sexo" value="m" required> Mujer
                 </p>
+                <textarea name="comentario" cols="60" rows="10" placeholder="Escriba aquí algún comentario (opcional)"></textarea>
                 <p>Acepto enviar este formulario para su estudio
                     <input type="checkbox" name ="check" required>
                 </p>
