@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang>
-    <head>
-        <title>Formulario</title>
-    </head>
-    <body>
-        <center>
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <center>
+        <div id="top">
             <h1 style="color:firebrick"> BIENVENIDO A MI PRIMER FORMULARIO :D</h1>
-            <form action="file:///C:/AppServ/www/Formulario/confirmacion.html" >
-                <p>Por favor llene los diguientes datos: </p>
-                <p>(*): Campo obligatorio</p>
-                Nombre (*): <input name="nombre" type="text" placeholder="Primer nombre" required/>
-                <br><br>  
-                Apellidos (*): <input name="apellido" type="text" placeholder="Apellidos paterno y materno" required/>
-                <br><br>
-                Edad (*): <input name="edad" type="number" min="0" required/>
-                <br><br>
-                <label>Region donde vive (*): </label>
-                <select name="region">
-                    <option>I. Tarapaca</option>
-                    <option>II. Antofagasta</option>
-                    <option>III. Atacama</option>
-                    <option>IV. Coquimbo</option>
-                    <option>V. Valparaiso</option>
-                    <option>VI. Libertador Bernardo O'higgins</option>
-                    <option>VII. Maule</option>
-                    <option>VIII. Biobio</option>
-                    <option>IX. Araucania</option>
-                    <option>X. Los lagos</option>
-                    <option>XI. Aysen</option>
-                    <option>XII. Magallanes</option>
-                    <option>Metropolitana</option>
-                    <option>XIV. Los Rios</option>
-                    <option>XV. Arica y Parinacota</option>
-                    <option>XVI. Ñuble</option>
-                </select>
-                <br><br>
-                Fecha de nacimiento (*): <input name="nacimiento" type="date" required/>
-                <p>Sexo (*):
-                    <input type="radio" name="sexo" value="h" required> Hombre
-                    <input type="radio" name="sexo" value="m" required> Mujer
-                </p>
-                <textarea name="comentario" cols="60" rows="10" placeholder="Escriba aquí algún comentario (opcional)"></textarea>
+            <p>Por favor llene los diguientes datos: </p>
+            <p>(*): Campo obligatorio</p>
+        </div>
+    </center>
+    <center>
+        <div id="formulario">
+            <form action="file:///C:/AppServ/www/Formulario/confirmacion.html">
+                <div id="datos">
+                    Nombre (*): <input name="nombre" type="text" placeholder="Primer nombre" required />
+                    <br><br>
+                    Apellidos (*): <input name="apellido" type="text" placeholder="Apellidos paterno y materno"
+                        required />
+                    <br><br>
+                    Edad (*): <input name="edad" type="number" min="0" required />
+                    <br><br>
+                    <label>Region donde vive (*): </label>
+                    <select name="region">
+                        <option>I. Tarapaca</option>
+                        <option>II. Antofagasta</option>
+                        <option>III. Atacama</option>
+                        <option>IV. Coquimbo</option>
+                        <option>V. Valparaiso</option>
+                        <option>VI. Libertador Bernardo O'higgins</option>
+                        <option>VII. Maule</option>
+                        <option>VIII. Biobio</option>
+                        <option>IX. Araucania</option>
+                        <option>X. Los lagos</option>
+                        <option>XI. Aysen</option>
+                        <option>XII. Magallanes</option>
+                        <option>Metropolitana</option>
+                        <option>XIV. Los Rios</option>
+                        <option>XV. Arica y Parinacota</option>
+                        <option>XVI. Ñuble</option>
+                    </select>
+                    <br><br>
+                    Fecha de nacimiento (*): <input name="nacimiento" type="date" required />
+                    <p>Sexo (*):
+                        <input type="radio" name="sexo" value="h" required> Hombre
+                        <input type="radio" name="sexo" value="m" required> Mujer
+                    </p>
+                    <textarea name="comentario" cols="60" rows="10"
+                        placeholder="Escriba aquí algún comentario (opcional)"></textarea>
+                </div>
                 <p>Acepto enviar este formulario para su estudio
-                    <input type="checkbox" name ="check" required>
+                    <input type="checkbox" name="check" required>
                 </p>
                 <input type="reset" value="Borrar datos" style="color: red;">
                 <input type="submit" value="Enviar formulario">
             </form>
-        </center>
-    </body>
-    <footer>
-        
-    </footer>
+        </div>
+    </center>
+
+
+</body>
+<footer>
+    <center>
+        <p style="font-size: x-small;">Creado por Francisco Alcota, estudiante de Ingeniería en Computación e Informática</p>        
+    </center>
+</footer>
+
 </html>
