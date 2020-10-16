@@ -8,7 +8,7 @@
 <body>
     <center>
         <div id="top">
-            <h1 style="color:firebrick"> BIENVENIDO A MI PRIMER FORMULARIO :D</h1>
+            <h1 style="color:firebrick">Bienvenido MusicBlog :D</h1>
             <p>Por favor llene los diguientes datos: </p>
             <p>(*): Campo obligatorio</p>
         </div>
@@ -16,7 +16,7 @@
     <center>
         <div id="formulario">
             <form action="file:///C:/AppServ/www/Formulario/confirmacion.html">
-                <div id="datos">
+                <div id="datosPersonales">
                     Nombre (*): <input name="nombre" type="text" placeholder="Primer nombre" required />
                     <br><br>
                     Apellidos (*): <input name="apellido" type="text" placeholder="Apellidos paterno y materno"
@@ -49,10 +49,20 @@
                         <input type="radio" name="sexo" value="h" required> Hombre
                         <input type="radio" name="sexo" value="m" required> Mujer
                     </p>
-                    <textarea name="comentario" cols="60" rows="10"
-                        placeholder="Escriba aquí algún comentario (opcional)"></textarea>
                 </div>
-                <p>Acepto enviar este formulario para su estudio
+                <div id="datosMusicales">
+                    <p>Selecciona los tipos de instrumentos que te gustan:</p>
+                    <div id="tipoInstrumento">
+                        Cuerdas <input type="checkbox" name="instrumento" value="1"> <br>
+                        Percusión <input type="checkbox" name="instrumento" value="2"> <br>
+                        Vientos <input type="checkbox" name="instrumento" value="3"> <br>
+                        Electrónicos <input type="checkbox" name="instrumento" value="4">
+                    </div>
+                    <br>
+                    <textarea name="comentario" cols="60" rows="10"
+                    placeholder="Cuentanos sobre tí (opcional)"></textarea>
+                </div>
+                <p>Acepto enviar este formulario para crear mi cuenta de MusicBlog
                     <input type="checkbox" name="check" required>
                 </p>
                 <input type="reset" value="Borrar datos" style="color: red;">
@@ -65,6 +75,7 @@
 </body>
 <footer>
     <center>
+        <br>
         <p style="font-size: x-small;">Creado por Francisco Alcota, estudiante de Ingeniería en Computación e Informática</p>        
     </center>
 </footer>
