@@ -22,6 +22,8 @@
                     Apellidos (*): <input name="apellido" type="text" placeholder="Apellidos paterno y materno"
                         required />
                     <br><br>
+                    Nombre de usuario: (*): <input style="width: 200px" name="usuario" type="text" placeholder="¿Cómo quieres que te llamemos?" required>
+                    <br><br>
                     Edad (*): <input name="edad" type="number" min="0" required />
                     <br><br>
                     <label>Region donde vive (*): </label>
@@ -44,6 +46,10 @@
                         <option>XVI. Ñuble</option>
                     </select>
                     <br><br>
+                    Constraseña (*): <input name="contra" type="password" placeholder="Elija una contraseña" required>
+                    <br><br>
+                    Repita contraseña (*): <input style="width: 190px;" name="contra" type="password" placeholder="Escriba de nuevo su contraseña" required>
+                    <br><br>
                     Fecha de nacimiento (*): <input name="nacimiento" type="date" required />
                     <p>Sexo (*):
                         <input type="radio" name="sexo" value="h" required> Hombre
@@ -62,11 +68,13 @@
                     <textarea name="comentario" cols="60" rows="10"
                     placeholder="Cuentanos sobre tí (opcional)"></textarea>
                 </div>
-                <p>Acepto enviar este formulario para crear mi cuenta de MusicBlog
-                    <input type="checkbox" name="check" required>
-                </p>
-                <input type="reset" value="Borrar datos" style="color: red;">
-                <input type="submit" value="Enviar formulario">
+                <div id="bot">
+                    <p>Acepto enviar este formulario para crear mi cuenta de MusicBlog
+                        <input type="checkbox" name="check" required>
+                    </p>
+                    <input type="reset" value="Borrar datos" style="color: red;">
+                    <input type="submit" value="Enviar formulario">
+                </div>
             </form>
         </div>
     </center>
@@ -76,7 +84,7 @@
 <footer>
     <center>
         <br>
-        <p style="font-size: x-small;">Creado por Francisco Alcota, estudiante de Ingeniería en Computación e Informática</p>        
+        <p style="font-size: smaller;">Creado por Francisco Alcota, estudiante de Ingeniería en Computación e Informática.</p>        
     </center>
 </footer>
 
