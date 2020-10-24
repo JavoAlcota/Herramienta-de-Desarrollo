@@ -1,0 +1,49 @@
+#bot{
+    width: max-content;
+    margin: auto;
+    height: 75px;
+}
+
+#btns{
+    width: max-content;
+    margin: auto;
+}
+
+/*Botón "Enviar formulario"*/
+#bot input[type=submit]{
+    padding: 10px;
+    background-color: rgb(51, 117, 95);
+    border-radius: 0px;
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#bot input[type=submit]:hover{
+    background-color: rgb(57, 224, 210);
+}
+
+#bot input[type=submit]:focus{
+    background-color: rgb(57, 124, 102);
+    outline: none;
+}
+
+/*Boton "Borrar datos"*/
+#bot input[type=reset]{
+    background-color: rgb(126, 22, 30);
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+}
+
+#bot input[type=reset]:hover{
+    background-color: rgb(236, 41, 41);
+
+}
+
+#bot input[type=reset]:focus{
+    background-color: rgb(135, 22, 30);
+    outline: none;
+}

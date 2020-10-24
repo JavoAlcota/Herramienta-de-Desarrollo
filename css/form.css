@@ -1,0 +1,90 @@
+#form{
+    color: bisque;
+    font-style: italic;
+    background-color: rgba(0,0,0,0.5);
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    text-align: justify;
+}
+
+input[type=number]{
+    background-color: rgba(36, 34, 34, 0.5);
+    color: bisque;
+}
+
+input[type=date]{
+    background-color: rgba(36, 34, 34, 0.5);
+    color: gray;
+}
+
+input[placeholder]{
+    color: bisque;
+    font-style: italic;
+    width: 190px;
+    height: 20px;
+    background-color: rgba(36, 34, 34, 0.5);
+    border-radius: 8px;
+}
+
+input[type=date]{
+    font-style: italic;
+}
+
+select{
+    font-style: italic;
+    color: bisque;
+    background-color: rgba(36, 34, 34, 0.5);
+}
+
+select:focus option{
+    background-color: rgba(36, 34, 34, 1);
+    color: bisque;
+}
+
+#td1{
+    border-right: 1px solid;
+}
+
+#datosPersonales input{
+    border-radius: 0px;
+    border: none;
+}
+
+#pTitulo{
+    text-align: center;
+}
+
+#datosPersonales{
+    color: bisque;
+    height: 370px;
+    margin-right: 30px;
+}
+
+#datosMusicales{
+    height: 370px;
+    width: 383px;
+    color: bisque;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#datosMusicales textarea{
+    color: bisque;
+    width: 350px;
+    height: 190px;
+    background-color: rgba(36, 34, 34, 0.5);
+    border: none;
+    border-radius: 0px;
+    resize: none;
+    font-style: italic;
+}
+
+#datosMusicales textarea:focus{
+    outline: none;
+}

@@ -1,0 +1,26 @@
+header{
+    color: bisque;
+    height: max-content;
+}
+
+#divPrincipal{
+    height: 120px;
+}
+
+#logo{
+    width: max-content;
+    font-style: italic;
+}
+
+#titulo{
+    margin: auto;
+    width: max-content;
+    position: relative;
+    top: -120px;
+    font-style: italic;
+}
+
+#titulo p{
+    margin: auto;
+    text-align: center;
+}
