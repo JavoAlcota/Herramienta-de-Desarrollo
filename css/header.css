@@ -7,6 +7,10 @@ header{
     height: 120px;
 }
 
+#divPrincipal h1{
+    color: aquamarine;
+}
+
 #logo{
     width: max-content;
     font-style: italic;
