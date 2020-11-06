@@ -1,0 +1,48 @@
+body{
+    background: url(292578.jpg) no-repeat center top;
+    background-size: cover;
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: max-content;
+    margin: 0px;
+    height: 657px;
+}
+
+.top{
+    display: flex;
+}
+
+.logo{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+
+.titulo{
+    background-color: aqua  ;
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    position: relative;
+    right: 75px;
+}
+
+.principal{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+
+.iniciarSesion{
+    width: 400PX;
+    height: 400px;
+}
+
+.registrarse{
+    width: 400px;
+    height: 400px;
+}
