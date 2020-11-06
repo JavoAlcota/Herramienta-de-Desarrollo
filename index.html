@@ -1,109 +1,52 @@
 <!DOCTYPE html>
-<html lang>
+<html lang="es">
     <head>
-        <title>Formulario</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/form.css">
-        <link rel="stylesheet" href="css/botones.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/header.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/inicio.css">
+        <title>MusicBlog</title>
+        <link type="image/x-icon" href="clave-de-sol-128px.ico" rel="icon" />
     </head>
+    <body>
+        <div class="top">
+            <div class="logo">
 
-    <body background="img/indexBackground.jpg" style="background-size: cover;">
-        <header>
-            <div id="divPrincipal">
-                <div id="logo">
-                    <div>
-                        <img src="icons/clave-de-do.png">
-                    </div>
-                    <p>MusicBlog</p>
-                </div>
-                <div id="titulo">
-                    <h1>Bienvenido MusicBlog :D</h1>
-                    <p>Por favor llene los siguientes datos: </p>
-                    <p>(*): Campo obligatorio</p>
-                </div>
             </div>
-        </header>
-        <div id="form">
-            <form action="confirmacion.html">
-                <table>
-                    <tr>
-                        <td id="td1">
-                            <div id="datosPersonales">
-                                <p id="pTitulo">- Datos Personales -</p>
-                                Nombre (*): <input name="nombre" type="text" placeholder="Primer nombre" required />
-                                <br><br>
-                                Apellidos (*): <input name="apellido" type="text" placeholder="Apellidos paterno y materno"
-                                    required />
-                                <br><br>
-                                Nombre de usuario: (*): <input style="width: 200px" name="usuario" type="text" placeholder="&#191C&oacute;mo quieres que te llamemos?" required>
-                                <br><br>
-                                Edad (*): <input name="edad" type="number" min="0" required />
-                                <br><br>
-                                Regi&oacute;n donde vive (*): 
-                                <select name="region">
-                                    <option>I. Tarapac&aacute</option>
-                                    <option>II. Antofagasta</option>
-                                    <option>III. Atacama</option>
-                                    <option>IV. Coquimbo</option>
-                                    <option>V. Valpara&iacute;so</option>
-                                    <option>VI. Libertador Bernardo O'higgins</option>
-                                    <option>VII. Maule</option>
-                                    <option>VIII. Biob&iacute;o</option>
-                                    <option>IX. Araucan&iacute;a</option>
-                                    <option>X. Los lagos</option>
-                                    <option>XI. Aysen</option>
-                                    <option>XII. Magallanes</option>
-                                    <option>Metropolitana</option>
-                                    <option>XIV. Los Rios</option>
-                                    <option>XV. Arica y Parinacota</option>
-                                    <option>XVI. &#209;uble</option>
-                                </select>
-                                <br><br>
-                                Constrase&ntilde;a (*): <input name="contra" type="password" placeholder="Elija una contrase&ntilde;a" required>
-                                <br><br>
-                                Repita contrase&ntilde;a (*): <input name="contra" type="password" placeholder="Escriba de nuevo su contrase&ntilde;a" required>
-                                <br><br>
-                                Fecha de nacimiento (*): <input name="nacimiento" type="date" required />
-                                <p>Sexo (*):
-                                    <input type="radio" name="sexo" value="h" required> Hombre
-                                    <input type="radio" name="sexo" value="m" required> Mujer
-                                </p>
-                            </div>
-                        </td>
-                        <td>
-                            <div id="datosMusicales">
-                                <p>- Datos musicales -</p>
-                                <p>
-                                    Selecciona los tipos de instrumentos que te gustan:
-                                </p>
-                                <div id="tipoInstrumento">
-                                    Cuerdas <input type="checkbox" name="instrumento" value="1"> <br>
-                                    Percusi&oacute;n <input type="checkbox" name="instrumento" value="2"> <br>
-                                    Vientos <input type="checkbox" name="instrumento" value="3"> <br>
-                                    Electr&oacute;nicos <input type="checkbox" name="instrumento" value="4">
-                                </div>
-                                <br>
-                                <textarea name="comentario"
-                                placeholder="Cu&eacute;ntanos sobre t&iacute; (opcional)"></textarea>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <div id="bot">
-                    <p>Acepto enviar este formulario para crear mi cuenta de MusicBlog
-                        <input type="checkbox" name="check" required>
-                    </p>
-                    <div id="btns">
-                        <input type="reset" value="Borrar datos">
-                        <input type="submit" value="Enviar formulario">
-                    </div>   
+            <div class="titulo">
+                <h1>Bienvenido a MusicBlog</h1>
+            </div>
+        </div>
+        <div class="principal">
+            <form action="" class="is">
+                <div class="iniciarSesion">
+                    <p>Iniciar sesión</p>
+                    <br>
+                    Nombre de usuario: <input type="text">
+                    <br><br><br>
+                    Contraseña: <input type="password">
+                    <br><br><br>
+                    Recordarme <input type="checkbox">
+                    <input type="submit" value="Iniciar sesión">
+                </div>
+            </form>
+            <form action="" class="reg">
+                <div class="registrarse">
+                    <p>¿No tienes cuenta? ¡Registrate ahora!</p>
+                    Nombre: <input type="text" required>
+                    <br><br>
+                    Nombre de usuario: <input type="text" required>
+                    <br><br>
+                    Contraseña: <input type="password" required>
+                    <br><br>
+                    Correo: <input type="email" required>
+                    <br><br>
+                    Fecha de nacimiento: <input type="date">                    
+                    <input type="submit" value="Registrarme">
                 </div>
             </form>
         </div>
+        <footer>
+            <p>Fondo referenciando a Tool.</p>
+        </footer>
     </body>
-    <footer>
-        <p>Creado por Francisco Alcota, estudiante de Ingenier&iacute;a en Computaci&oacute;n e Inform&aacute;tica.</p>        
-    </footer>
 </html>

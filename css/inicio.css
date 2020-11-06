@@ -8,18 +8,34 @@ body{
     height: 657px;
 }
 
+.logo{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background: url(clave-de-sol-128px.png) no-repeat;
+    width: 128px;
+    height: 128px;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+.is{
+    border-right: solid black 1px;
+}
+
+.reg{
+    border-left: solid black 1px;
+}
+
 .top{
     display: flex;
 }
 
-.logo{
-    background-color: blue;
-    width: 150px;
-    height: 150px;
-}
-
 .titulo{
-    background-color: aqua  ;
+    color: white;
+    text-align: center;
     margin: auto;
     width: 800px;
     height: 100px;
@@ -28,21 +44,91 @@ body{
 }
 
 .principal{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: auto;
     width: 800px;
     height: 400px;
     position: relative;
-    top: 100px;
+    top: 40px;
     display: flex;
 }
 
 .iniciarSesion{
+    margin: 5px;
+    text-align: center;
+    color: white;
     width: 400PX;
     height: 400px;
 }
 
+.iniciarSesion p{
+    text-align: center;
+    font-size: x-large;
+}
+
+.iniciarSesion input[type=submit]{
+    width: 350px;
+    height: 80px;
+    position: relative;
+    top: 66px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(55, 131, 58);
+    font-size: larger;
+}
+
+.iniciarSesion input[type=submit]:hover{
+    background-color: #4caf50;
+    border: none;
+}
+
+.iniciarSesion input[type=submit]:focus{
+    outline: none;
+    background-color: rgb(55, 131, 58);
+}
+
 .registrarse{
+    margin: 5px;
+    text-align: left;
     width: 400px;
     height: 400px;
+    color: white;
+}
+
+.registrarse p{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    position: relative;
+    right: 10px;
+}
+
+.registrarse input[type=submit]{
+    margin-left: 15px;
+    position: relative;
+    top: 38px;
+    width: 350px;
+    height: 80px;
+    font-size: larger;
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(15, 98, 153);
+}
+
+.registrarse input[type=submit]:hover{
+    background-color: rgb(47, 136, 196);
+    border: none;
+}
+
+.registrarse input[type=submit]:focus{
+    outline: none;
+    background-color: rgb(15, 98, 153);
+}
+
+footer{
+    color: black;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    width: max-content;
 }
