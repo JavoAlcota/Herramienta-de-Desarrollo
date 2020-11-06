@@ -1,9 +1,7 @@
 body{
     background: url(292578.jpg) no-repeat center top;
     background-size: cover;
-    backdrop-filter: blur(6px);
-    width: 100%;
-    height: max-content;
+    backdrop-filter: blur(15px);
     margin: 0px;
     height: 657px;
 }
@@ -17,7 +15,7 @@ body{
     height: 128px;
 }
 
-input[type=text]:focus{
+input:focus{
     outline: none;
 }
 
@@ -62,7 +60,6 @@ input[type=text]:focus{
 }
 
 .iniciarSesion p{
-    text-align: center;
     font-size: x-large;
 }
 
@@ -79,11 +76,9 @@ input[type=text]:focus{
 
 .iniciarSesion input[type=submit]:hover{
     background-color: #4caf50;
-    border: none;
 }
 
 .iniciarSesion input[type=submit]:focus{
-    outline: none;
     background-color: rgb(55, 131, 58);
 }
 
@@ -121,7 +116,6 @@ input[type=text]:focus{
 }
 
 .registrarse input[type=submit]:focus{
-    outline: none;
     background-color: rgb(15, 98, 153);
 }
 
