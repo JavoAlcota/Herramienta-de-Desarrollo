@@ -10,9 +10,16 @@ body{
     position: relative;
     left: 10px;
     top: 10px;
-    background: url(clave-de-sol-128px.png) no-repeat;
-    width: 128px;
-    height: 128px;
+    background: url(clave-de-sol.png) no-repeat;
+    width: max-content;
+    height: 84px;
+}
+
+.logo p{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+
 }
 
 input:focus{
@@ -47,7 +54,7 @@ input:focus{
     width: 800px;
     height: 400px;
     position: relative;
-    top: 40px;
+    bottom: 220px;
     display: flex;
 }
 
@@ -56,7 +63,8 @@ input:focus{
     text-align: center;
     color: white;
     width: 400PX;
-    height: 400px;
+    height: 395px;
+    font-size: large;
 }
 
 .iniciarSesion p{
@@ -67,7 +75,7 @@ input:focus{
     width: 350px;
     height: 80px;
     position: relative;
-    top: 66px;
+    top: 50px;
     border-radius: 0px;
     border: none;
     background-color: rgb(55, 131, 58);
@@ -90,6 +98,7 @@ input:focus{
     width: 250px;
     height: 20px;
     color: white;
+    font-size: medium;
 }
 
 .input:focus{
@@ -97,6 +106,7 @@ input:focus{
 }
 
 input[type=date]{
+    text-align: center;
     background-color: transparent;
     color: lightgray;
     border: none;
@@ -106,13 +116,13 @@ input[type=date]{
 .registrarse{
     margin: 5px;
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 375px;
+    height: 395px;
     color: white;
 }
 
 .registrarse p{
-    text-align: center;
+    text-align: right;
     color: white;
     font-size: x-large;
     position: relative;
@@ -145,6 +155,20 @@ footer{
     color: black;
     margin: auto;
     position: relative;
-    top: 50px;
+    bottom: 180px;
     width: max-content;
+}
+
+.lateralDerecho{
+    width: max-content;
+    height: max-content;
+    position: relative;
+    right: 30px;
+    top: 120px;
+    margin-left: auto;
+}
+
+.lateralDerecho a img{
+    width: 50px;
+    padding: 20px;
 }
