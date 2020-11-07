@@ -82,9 +82,30 @@ input:focus{
     background-color: rgb(55, 131, 58);
 }
 
+.input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid white 1px;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    color: white;
+}
+
+.input:focus{
+    color: white;
+}
+
+input[type=date]{
+    background-color: transparent;
+    color: lightgray;
+    border: none;
+    border-bottom: solid white 1px;
+}
+
 .registrarse{
     margin: 5px;
-    text-align: left;
+    text-align: center;
     width: 400px;
     height: 400px;
     color: white;
@@ -101,7 +122,8 @@ input:focus{
 .registrarse input[type=submit]{
     margin-left: 15px;
     position: relative;
-    top: 38px;
+    top: 35px;
+    right: 10px;
     width: 350px;
     height: 80px;
     font-size: larger;
