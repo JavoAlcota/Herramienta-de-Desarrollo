@@ -1,7 +1,7 @@
 .registrarse{
     margin: 5px;
     text-align: center;
-    width: 375px;
+    width: 380px;
     height: 395px;
     color: white;
 }
@@ -25,18 +25,20 @@
     border-radius: 0%;
     border: none;
     background-color: rgb(15, 98, 153);
+    transition: 0.2s;
 }
 
 .registrarse input[type=submit]:hover{
     background-color: rgb(47, 136, 196);
     border: none;
+    transform: scale(1.02, 1.02);
 }
 
 .registrarse input[type=submit]:focus{
     background-color: rgb(15, 98, 153);
+    transform: scale(1, 1);
 }
 
 .reg{
-    background-image: linear-gradient(to left, rgba(70,70,70,0.5), black);
-    border-left: solid rgba(70,70,70,0.1) 1px;
+    border-left: solid rgb(22, 22, 22) 1px;
 }

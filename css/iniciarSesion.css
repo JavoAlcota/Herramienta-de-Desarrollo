@@ -20,16 +20,15 @@
     border: none;
     background-color: rgb(55, 131, 58);
     font-size: larger;
+    transition: 0.2s;
 }
 
 .iniciarSesion input[type=submit]:hover{
     background-color: #4caf50;
+    transform: scale(1.02, 1.02);
 }
 
 .iniciarSesion input[type=submit]:focus{
     background-color: rgb(55, 131, 58);
-}
-
-.is{
-    background-image: linear-gradient(to right, rgba(70,70,70,0.5), black);
+    transform: scale(1, 1);
 }

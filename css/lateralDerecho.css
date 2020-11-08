@@ -1,13 +1,26 @@
 .lateralDerecho{
     width: max-content;
     height: max-content;
+    max-width: 90px;
+    max-height: 280px;
     position: relative;
     right: 30px;
     top: 120px;
     margin-left: auto;
+    box-shadow: 8px 8px 8px;
+    background-color: rgba(0,0,0,0.4);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .lateralDerecho a img{
     width: 50px;
     padding: 20px;
+    transition: 0.2s;
+}
+
+.lateralDerecho a img:hover{
+    transform: scale(1.1, 1.1);
 }

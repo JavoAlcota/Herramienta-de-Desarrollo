@@ -1,7 +1,7 @@
 body{
     background: url(292578.jpg) no-repeat center top;
     background-size: cover;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     margin: 0px;
     height: 657px;
 }
@@ -17,6 +17,10 @@ input:focus{
     position: relative;
     bottom: 220px;
     display: flex;
+    box-shadow: 8px 8px 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .input{
