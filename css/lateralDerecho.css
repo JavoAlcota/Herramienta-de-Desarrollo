@@ -20,12 +20,12 @@
     transform: scale(1.07, 1.07);
 }
 
-.lateralDerecho a img{
+.rrss{
     width: 50px;
     padding: 20px;
     transition: 0.2s;
 }
 
-.lateralDerecho a img:hover{
+.rrss:hover{
     transform: scale(1.15, 1.15);
 }
