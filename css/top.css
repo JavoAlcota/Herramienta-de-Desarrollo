@@ -1,0 +1,29 @@
+.logo{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background: url(clave-de-sol.png) no-repeat;
+    width: max-content;
+    height: 84px;
+}
+
+.logo p{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+
+}
+
+.top{
+    display: flex;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    position: relative;
+    right: 75px;
+}

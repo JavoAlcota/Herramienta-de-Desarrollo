@@ -1,0 +1,13 @@
+.lateralDerecho{
+    width: max-content;
+    height: max-content;
+    position: relative;
+    right: 30px;
+    top: 120px;
+    margin-left: auto;
+}
+
+.lateralDerecho a img{
+    width: 50px;
+    padding: 20px;
+}

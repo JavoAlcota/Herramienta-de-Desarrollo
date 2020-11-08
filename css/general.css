@@ -1,0 +1,43 @@
+body{
+    background: url(292578.jpg) no-repeat center top;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    margin: 0px;
+    height: 657px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.principal{
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    bottom: 220px;
+    display: flex;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid white 1px;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    color: white;
+    font-size: medium;
+}
+
+.input:focus{
+    color: white;
+}
+
+footer{
+    color: black;
+    margin: auto;
+    position: relative;
+    bottom: 180px;
+    width: max-content;
+}

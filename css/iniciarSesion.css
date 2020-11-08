@@ -1,0 +1,35 @@
+.iniciarSesion{
+    margin: 5px;
+    text-align: center;
+    color: white;
+    width: 400PX;
+    height: 395px;
+    font-size: large;
+}
+
+.iniciarSesion p{
+    font-size: x-large;
+}
+
+.iniciarSesion input[type=submit]{
+    width: 350px;
+    height: 80px;
+    position: relative;
+    top: 50px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(55, 131, 58);
+    font-size: larger;
+}
+
+.iniciarSesion input[type=submit]:hover{
+    background-color: #4caf50;
+}
+
+.iniciarSesion input[type=submit]:focus{
+    background-color: rgb(55, 131, 58);
+}
+
+.is{
+    background-image: linear-gradient(to right, rgba(70,70,70,0.5), black);
+}

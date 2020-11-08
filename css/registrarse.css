@@ -1,0 +1,42 @@
+.registrarse{
+    margin: 5px;
+    text-align: center;
+    width: 375px;
+    height: 395px;
+    color: white;
+}
+
+.registrarse p{
+    text-align: right;
+    color: white;
+    font-size: x-large;
+    position: relative;
+    right: 10px;
+}
+
+.registrarse input[type=submit]{
+    margin-left: 15px;
+    position: relative;
+    top: 35px;
+    right: 10px;
+    width: 350px;
+    height: 80px;
+    font-size: larger;
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(15, 98, 153);
+}
+
+.registrarse input[type=submit]:hover{
+    background-color: rgb(47, 136, 196);
+    border: none;
+}
+
+.registrarse input[type=submit]:focus{
+    background-color: rgb(15, 98, 153);
+}
+
+.reg{
+    background-image: linear-gradient(to left, rgba(70,70,70,0.5), black);
+    border-left: solid rgba(70,70,70,0.1) 1px;
+}
