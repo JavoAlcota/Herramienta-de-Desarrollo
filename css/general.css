@@ -4,6 +4,7 @@ body{
     backdrop-filter: blur(10px);
     margin: 0px;
     height: 657px;
+    overflow: hidden;
 }
 
 input:focus{
@@ -12,7 +13,7 @@ input:focus{
 
 .principal{
     margin: auto;
-    width: 800px;
+    width: 808px;
     height: 400px;
     position: relative;
     bottom: 220px;
@@ -41,7 +42,7 @@ input:focus{
     transform: scale(1.1, 1.1);
 }
 
-footer{
+.referencia{
     color: black;
     margin: auto;
     position: relative;
