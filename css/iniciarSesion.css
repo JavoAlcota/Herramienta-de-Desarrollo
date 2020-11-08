@@ -11,7 +11,7 @@
     font-size: x-large;
 }
 
-.iniciarSesion input[type=submit]{
+.btnIs{
     width: 350px;
     height: 80px;
     position: relative;
@@ -23,12 +23,12 @@
     transition: 0.2s;
 }
 
-.iniciarSesion input[type=submit]:hover{
+.btnIs:hover{
     background-color: #4caf50;
     transform: scale(1.02, 1.02);
 }
 
-.iniciarSesion input[type=submit]:focus{
+.btnIs:focus{
     background-color: rgb(55, 131, 58);
     transform: scale(1, 1);
 }

@@ -14,7 +14,7 @@
     right: 10px;
 }
 
-.registrarse input[type=submit]{
+.btnReg{
     margin-left: 15px;
     position: relative;
     top: 35px;
@@ -28,13 +28,13 @@
     transition: 0.2s;
 }
 
-.registrarse input[type=submit]:hover{
+.btnReg:hover{
     background-color: rgb(47, 136, 196);
     border: none;
     transform: scale(1.02, 1.02);
 }
 
-.registrarse input[type=submit]:focus{
+.btnReg:focus{
     background-color: rgb(15, 98, 153);
     transform: scale(1, 1);
 }
