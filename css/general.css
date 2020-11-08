@@ -18,8 +18,8 @@ input:focus{
     bottom: 220px;
     display: flex;
     background-color: rgba(0, 0, 0, 0.4);
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    /*border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;*/
     transition: 0.2s;
     box-shadow: 8px 8px 8px;
 }
@@ -47,4 +47,5 @@ footer{
     position: relative;
     bottom: 180px;
     width: max-content;
+    font-size: smaller;
 }
