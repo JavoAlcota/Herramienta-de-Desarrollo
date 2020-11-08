@@ -1,5 +1,5 @@
 body{
-    background: url(292578.jpg) no-repeat center top;
+    background: url(img/292578.jpg) no-repeat center top;
     background-size: cover;
     backdrop-filter: blur(10px);
     margin: 0px;
@@ -19,8 +19,6 @@ input:focus{
     bottom: 220px;
     display: flex;
     background-color: rgba(0, 0, 0, 0.4);
-    /*border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;*/
     transition: 0.2s;
     box-shadow: 8px 8px 8px;
 }

@@ -18,7 +18,6 @@
     margin-left: 15px;
     position: relative;
     top: 35px;
-    right: 10px;
     width: 350px;
     height: 80px;
     font-size: larger;
@@ -40,5 +39,5 @@
 }
 
 .reg{
-    border-left: solid rgb(22, 22, 22) 1px;
+    border-left: solid black 1px;
 }
