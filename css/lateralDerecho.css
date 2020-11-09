@@ -29,3 +29,7 @@
 .rrss:hover{
     transform: scale(1.15, 1.15);
 }
+
+.rrss:focus{
+    transform: scale(0.3, 0.3);
+}

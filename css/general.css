@@ -3,7 +3,6 @@ body{
     background-size: cover;
     backdrop-filter: blur(10px);
     margin: 0px;
-    height: 657px;
     overflow: hidden;
 }
 
@@ -36,7 +35,6 @@ input:focus{
 }
 
 .datos:focus{
-    color: white;
     transform: scale(1.1, 1.1);
 }
 

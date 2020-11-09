@@ -29,7 +29,6 @@
 
 .btnReg:hover{
     background-color: rgb(47, 136, 196);
-    border: none;
     transform: scale(1.02, 1.02);
 }
 

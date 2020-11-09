@@ -1,7 +1,5 @@
 .logo{
-    position: relative;
-    left: 10px;
-    top: 10px;
+    margin: 10px;
     background: url(iconos/clave-de-sol.png) no-repeat;
     width: max-content;
     height: 84px;
