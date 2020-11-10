@@ -31,7 +31,7 @@ input:focus{
     height: 20px;
     color: white;
     font-size: medium;
-    transition: 0.2s;
+    transition: 0.15s;
 }
 
 .datos:focus{

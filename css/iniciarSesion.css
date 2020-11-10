@@ -20,7 +20,7 @@
     border: none;
     background-color: rgb(55, 131, 58);
     font-size: larger;
-    transition: 0.2s;
+    transition: 0.15s;
 }
 
 .btnIs:hover{
