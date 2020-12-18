@@ -25,10 +25,12 @@
     border: none;
     background-color: rgba(0, 0, 0, 0);
     border-bottom: 1px solid gray;
+    color: white;
 }
 
 #inp-reg:focus{
     transform: scale(1.025, 1.025);
+    color: white;
 }
 
 #inp-is{
@@ -37,14 +39,11 @@
     border: none;
     border-radius: 0px;
     border-bottom: 1px solid gray;
+    color: white;
 }
 
 #inp-is:focus{
     transform: scale(1.025, 1.025);
-}
-
-#div-btn-is{
-    margin-top: 15.1rem;
 }
 
 #btn-is{
@@ -82,9 +81,14 @@ body{
 
 #inp-is:focus{
     outline: none;
+    color: white;
 }
 
 #span-reg{
     background-color: rgba(0, 0, 0, 0);
     border: none;
+}
+
+#check-mantener{
+    padding-top: 9.4rem;
 }
