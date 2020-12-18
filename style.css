@@ -1,0 +1,90 @@
+#submits{
+    background-color:  rgb(109, 172, 243);
+    transition: 100ms;
+}
+
+#submits:hover{
+    color: white;
+    background-color: rgb(0, 119, 255);
+    transform: scale(1.1,1.1);
+}
+
+#btn-reg{
+    background-color: rgb(34, 129, 39);
+    transition: 200ms;
+}
+
+#btn-reg:hover{
+    background-color: rgb(60, 218, 68);
+    transform: scale(1.1, 1.1);
+}
+
+#inp-reg{
+    border-radius: 0px;
+    transition: 200ms;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid gray;
+}
+
+#inp-reg:focus{
+    transform: scale(1.025, 1.025);
+}
+
+#inp-is{
+    transition: 200ms;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid gray;
+}
+
+#inp-is:focus{
+    transform: scale(1.025, 1.025);
+}
+
+#div-btn-is{
+    margin-top: 15.1rem;
+}
+
+#btn-is{
+    background-color: rgb(28, 105, 141);
+    transition: 200ms;
+}
+
+#btn-is:hover{
+    background-color: rgb(0, 174, 255);
+    transform: scale(1.1, 1.1);
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url(wallpaper1.jpg);
+    background-size: cover;
+}
+
+#is, #reg{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-right: 1px solid gray;
+}
+
+#is p{
+    color: white;
+}
+
+#reg{
+    border-right: none;
+}
+
+#reg p{
+    color: white;
+}
+
+#inp-is:focus{
+    outline: none;
+}
+
+#span-reg{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}

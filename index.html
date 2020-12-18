@@ -1,63 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/iniciarSesion.css">
-        <link rel="stylesheet" href="css/registrarse.css">
-        <link rel="stylesheet" href="css/top.css">
-        <link rel="stylesheet" href="css/lateralDerecho.css">
-        <title>MusicBlog</title>
-        <link type="image/x-icon" href="ico/clave-de-sol.png" rel="icon" />
-    </head>
-    <body>
-        <div class="top">
-            <div class="logo">
-                <p>MusicBlog</p>
-            </div>
-            <div class="titulo">
-                <h1>Bienvenido a MusicBlog</h1>
-            </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>¡Registrate!</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row w-100  m-0">
+        <div id="logo" class="col-md-auto ">
+            <a href="index.html"><img src="ico/clave-de-sol.png" alt=""></a>
+            <p>MusicBlog</p>
         </div>
-        <div class="lateralDerecho">
-            <a href="https://www.instagram.com"><img class="rrss" src="css/iconos/instagram.png" alt="instagram"></a><br>
-            <a href="https://www.facebook.com"><img class="rrss" src="css/iconos/facebook.png" alt="facebook"></a><br>
-            <a href="https://www.twitter.com"><img class="rrss" src="css/iconos/gorjeo.png" alt="twitter"></a>
+        <div id="tittle" class="col  text-center text-white">
+            <h1 class="display-2 mb-5 text-decoration-underline">Bienvenido a MusicBlog</h1>
         </div>
-        <div class="principal">
-            <form action="" class="is">
-                <div class="iniciarSesion">
-                    <p>Iniciar sesión</p>
-                    <br>
-                    <input type="text" placeholder="Nombre de usuario" class="datos">
-                    <br><br><br>
-                    <input type="password" placeholder="Constraseña" class="datos">
-                    <br><br><br>
-                    Recordarme <input type="checkbox">
-                    <input type="submit" value="Iniciar sesión" class="btnIs">
+    </div>
+    <div class="row w-100  m-0 h-100">
+        <div class="col-2">
+        </div>
+        <div class="col-4" id="is">
+            <form action="">
+                <p id="isp" class="display-6 text-center">Iniciar sesión</p>
+                <div class="input-group mt-5">
+                    <input type="text" class="form-control" id="inp-is" placeholder="Nombre de usuario" required>
                 </div>
-            </form>
-            <form action="confirmacion.html" class="reg">
-                <div class="registrarse">
-                    <p>¿No tienes cuenta? ¡Registrate ahora!</p>
-                    <input type="text" placeholder="Nombre" class="datos" required>
-                    <br><br>
-                    <input type="text" placeholder="Nombre de usuario" class="datos" required>
-                    <br><br>
-                    <input type="password" placeholder="Contraseña" class="datos" required>
-                    <br><br>
-                    <input type="email" placeholder="Correo" class="datos" required>
-                    <br><br>
-                    <input type="number" placeholder="Edad" class="datos" min="0" required>                 
-                    <input type="submit" value="Registrarme" class="btnReg">
+                <div class="input-group mt-4">
+                    <input type="password" id="inp-is" class="form-control" id="password" placeholder="Contraseña" required>
+                </div>
+                <div class="text-center" id="div-btn-is">
+                    <input type="submit" id="btn-is" value="Iniciar sesión" class="btn m-3">
                 </div>
             </form>
         </div>
-        <footer>
-            <div class="referencia">
-                <p>Fondo: Tool.</p>
-            </div>
-        </footer>
-    </body>
+        <div class="col-4 " id="reg">
+            <form action="">
+                <p id="rp" class="display-6 text-center">¡Registrate!</p>
+                <div>
+                    <input type="text" id="inp-reg" class="form-control mt-5" placeholder="Elige un nombre de usuario" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="inp-reg" class="form-control mt-4" placeholder="Ingresa tu correo" required>
+                    <span class="input-group-text mt-4 text-white" id="span-reg">@gmail.com</span>
+                </div>
+                <div>
+                    <input type="password" id="inp-reg" class="form-control mt-4" placeholder="Ingresa una contraseña" required>
+                </div>
+                <div>
+                    <input type="password" id="inp-reg" class="form-control mt-4" placeholder="Ingresa nuevamente tu contraseña" required>
+                </div>
+                <div>
+                    <input type="number" id="inp-reg"class="form-control mt-4" placeholder="Ingresa tu edad" required>
+                </div>
+                <div class="form-check mt-4 text-center">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                    <label class="form-check-label text-white" for="flexCheckDefault">
+                      He leído y acepto los <a href="https://www.google.cl">términos</a>
+                    </label>
+                </div>
+                <div class="text-center m-4">
+                    <input type="submit" id="btn-reg" class="btn" value="Registrarme">
+                </div>
+            </form>
+        </div>
+        <div class="col-2">
+        </div>
+    </div>
+    <div class="row text-center">
+        <p class="mt-5 fw-lighter text-white">Página creada por Francisco Alcota&copy;</p>
+    </div>
+    <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
