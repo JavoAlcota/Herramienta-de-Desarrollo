@@ -1,0 +1,15 @@
+#btn{
+    float: right;
+}
+
+#terminos{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+body{
+    background-image: url(img/deadmau5.jpg);
+    backdrop-filter: blur(20px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
